@@ -10,13 +10,18 @@ public class ConstructorDemo {
         System.out.println("a : "+a);
     }
 
+    ConstructorDemo(int a,int b){
+        System.out.println("a : "+a);
+    }
+
+
     ConstructorDemo(float a){
         System.out.println("float a : "+a);
     }
 
     public static void main(String[] args) {
 
-        ConstructorDemo demo=new ConstructorDemo();
+        ConstructorDemo demo=new ConstructorDemo(10.10F);
 
     }
 

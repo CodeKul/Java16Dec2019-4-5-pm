@@ -1,6 +1,8 @@
 package aggregation;
 
-public class Employee {
+import abstraction.AbstractClass;
+
+public class Employee extends AbstractClass {
 
     int id;
     String name;
@@ -39,4 +41,8 @@ public class Employee {
         employee.showData();
     }
 
+    @Override
+    public String setName() {
+        return "Rajan";
+    }
 }

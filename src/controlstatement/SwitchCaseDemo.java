@@ -34,7 +34,7 @@ public class SwitchCaseDemo {
     }
 
     public static void main(String[] args) {
-        new SwitchCaseDemo().checkSwitchCase();
+                new SwitchCaseDemo().checkSwitchCase();
     }
 
 }
