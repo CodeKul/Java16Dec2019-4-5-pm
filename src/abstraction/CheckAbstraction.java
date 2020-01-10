@@ -15,6 +15,6 @@ public class CheckAbstraction extends AbstractClass implements InterfaceDemo {
 
     @Override
     public void showData() {
-
     }
+
 }
